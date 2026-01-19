@@ -128,5 +128,4 @@ if __name__ == "__main__":
     print(f"📁 Diretório base: {BASE_DIR}")
     print(f"🎵 Arquivo de áudio: {AUDIO_FILE}")
     print("="*50)
-    # Em produção, o Gunicorn vai rodar a aplicação
     app.run(host="0.0.0.0", port=port, debug=False)
